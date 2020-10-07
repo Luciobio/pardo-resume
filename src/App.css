@@ -1,0 +1,130 @@
+.app {
+  max-width: 80%;
+  margin-left: 10%
+}
+
+.columnContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr
+}
+
+.leftColumn {
+  background-color: white;
+}
+
+.headerCont {
+  padding:3% 0 3% 7%;
+  margin-top: 0;
+  background-color: #E5E5E5;
+}
+
+.myName {
+  font-weight:900
+}
+
+.lineDiv {
+  background-color: #01BCB5;
+  color: #01BCB5;
+  width: 90%;
+  height: 3px;
+}
+
+.jsDev {
+  font-weight: 800
+}
+
+.abautMe {
+  padding-top: 2%
+}
+
+.techIcon {
+  background-color: white;
+  margin: 0.5%;
+  border-radius: 50%
+}
+
+p {
+  width: 90%;
+  text-align: justify
+}
+
+span{
+  font-weight:900
+}
+
+.expCont{
+  background-color: #F5F5F5;
+  padding-bottom: 5%
+}
+
+.expTitleCont {
+  background-color: #01BCB5;
+  padding: 2%;
+  padding-left:7%
+}
+
+.whiteCont {
+  padding: 2% 0 0 7%;
+}
+
+.rowCont {
+  display: flex;
+  align-items: baseline
+}
+
+.rightColumn {
+  background-color: black;
+  color: white
+}
+
+.contactInfo {
+  padding: 7% 0 3% 7%;
+  background-color: #2B2B2B
+}
+
+.infoTagCont {
+  display: flex;
+  padding: 1%;
+}
+
+.infoTag {
+  margin-left: 3%
+}
+
+a {
+  color:white;
+  transition: 0.15s
+}
+
+a:hover {
+  text-shadow: 0 0 2px white;
+  color: white !important
+}
+
+.aboutCont {
+  padding: 3% 0 5% 7%;
+  margin-top: 3%;
+}
+
+.ed {
+  padding-top: 3%
+}
+
+.edTitle {
+  padding-top: 3%
+}
+
+@media (max-width: 800px) {
+  .columnContainer {
+    grid-template-columns: 1fr
+  }
+
+  .rightColumn {
+    display: flex;
+    flex-direction: column-reverse
+  }
+
+  .contactInfo {
+    padding: 5% 0 5% 7%;
+  }
+}

@@ -15,9 +15,7 @@ function App() {
             <h3 className="jsDev">Developer</h3>
             <p className= "abautMe">
               I'm also a biologist and musician, but <span>I look foward to grow as a
-              web developer</span>. I'm actually working as a music teacher in an
-              elementary school and as Teaching assistant in Henry coding bootcamp. But
-              I'm actively looking for a job position in the web development area.
+              web developer and digital marketing specialist</span>. I'm actually working as Digital Marketing Assistant in 3DUS and working in personal web development projects mostly focused on front-end development.
             </p>
             <h6><span>Main technical skills:</span></h6>
             <p align="center">
@@ -32,6 +30,15 @@ function App() {
               <img className="techIcon" src={require("./icons/postgresql.png")} height="38" alt=""/>
               <img className="techIcon" src={require("./icons/mocha.png")} height="38" alt=""/>
               <img className="techIcon" src={require("./icons/linux.png")} height="38" alt=""/>
+              <img className="techIcon" src={require("./icons/scrum.png")} height="38" alt=""/>
+              <img className="techIcon" src={require("./icons/wordpress.png")} height="38" alt=""/>
+              <img className="techIcon" src={require("./icons/mailchimp.png")} height="38" alt=""/>
+              <img className="techIcon" src={require("./icons/google-ads.png")} height="38" alt=""/>
+              <img className="techIcon" src={require("./icons/google-analytics.png")} height="38" alt=""/>
+              <img className="techIcon" src={require("./icons/facebook.png")} height="38" alt=""/>
+              <img className="techIcon" src={require("./icons/instagram.png")} height="38" alt=""/>
+              <img className="techIcon" src={require("./icons/linkedin.png")} height="38" alt=""/>
+              <img className="techIcon" src={require("./icons/pinterest.png")} height="38" alt=""/>
             </p>
           </div>
           <div className="expCont">
@@ -58,17 +65,24 @@ function App() {
               </p>
               <div className="rowCont">
                 <h3>Teacher</h3>
-                <h5> - (2018 to present)</h5>
+                <h5> - (2018 - 2021)</h5>
               </div>
               <p>
                 For primary and secondary education. Teaching Biology and Music.
               </p>
               <div className="rowCont">
                 <h3>Teaching assistant</h3>
-                <h5> - Henry (2020 to present)</h5>
+                <h5> - Henry (08/20 -12/20)</h5>
               </div>
               <p>
                 Heading daily Stand up meetings with 20 Henry full-stack students.
+              </p>
+              <div className="rowCont">
+                <h3>Digital Marketing </h3>
+                <h5> - 3DUS (02/21 to present)</h5>
+              </div>
+              <p>
+                Digital Marketing Trainee, social media, web management and digital marketing.
               </p>
             </div>
           </div>
@@ -86,10 +100,17 @@ function App() {
             <p>
               I'm a person of many interests, environment, wildlife, music, photography, design, cience,
               technology and videogames have always called my atention. Since I was little I've been skilled
-              in computer use, but it wasn't untill a few years ago I realized I could become a developer, and
+              in computer use, but it wasn't untill a few years ago I realized I could work in the digital world, and
               that's my main focus today.
             </p>
             <h2 className="ed">EDUCATION</h2>
+            <h3 className="edTitle">Digital Marketing</h3>
+            <h5>LinkedIn Learning</h5>
+            <h6>Marketing on Linkedin - Completed 2/2/2021</h6>
+            <h6>Digital Marketing Foundations - Completed 2/25/2021</h6>
+            <h6>Google Universal Analytics Essential Training (2020) - Completed 3/4/2021</h6>
+            <h6>SEO Foundations - Completed 3/17/2021</h6>
+            <h6>Content Marketing Foundations - Completed 3/24/2021</h6>
             <h3 className="edTitle">Full-stack Developer</h3>
             <h5>Henry bootcamp (06/20 - 10/20)</h5>
             <p>
@@ -98,7 +119,7 @@ function App() {
             </p>
             <p>
               <span>Technologies learned: HTML, CSS, JavaScript, React, Redux, AJAX, Webpack, NodeJs, Express, PostgreSQL,
-              Authentication, Testing.</span>
+              Authentication, Testing, Scrum.</span>
             </p>
             <h3 className="edTitle">Biologist</h3>
             <p>

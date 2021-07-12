@@ -106,11 +106,11 @@ function App() {
             <h2 className="ed">EDUCATION</h2>
             <h3 className="edTitle">Digital Marketing</h3>
             <h5>LinkedIn Learning</h5>
-            <h6>Marketing on Linkedin - Completed 2/2/2021</h6>
-            <h6>Digital Marketing Foundations - Completed 2/25/2021</h6>
-            <h6>Google Universal Analytics Essential Training (2020) - Completed 3/4/2021</h6>
-            <h6>SEO Foundations - Completed 3/17/2021</h6>
-            <h6>Content Marketing Foundations - Completed 3/24/2021</h6>
+            <h6>Marketing on Linkedin - Completed 2/2/2021.</h6>
+            <h6>Digital Marketing Foundations - Completed 2/25/2021.</h6>
+            <h6>Google Universal Analytics Essential Training - Completed 3/4/2021.</h6>
+            <h6>SEO Foundations - Completed 3/17/2021.</h6>
+            <h6>Content Marketing Foundations - Completed 3/24/2021.</h6>
             <h3 className="edTitle">Full-stack Developer</h3>
             <h5>Henry bootcamp (06/20 - 10/20)</h5>
             <p>

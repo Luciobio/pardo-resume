@@ -88,12 +88,17 @@ function App() {
           </div>
         </div>
         <div className="rightColumn">
-          <div className="contactInfo">
-            <div className="infoTagCont">{phone}<h5 className="infoTag">+549-387-5060-613</h5></div>
-            <div className="infoTagCont">{email}<h5 className="infoTag">pardobio@gmail.com</h5></div>
-            <div className="infoTagCont">{location}<h5 className="infoTag">Salta, Argentina</h5></div>
-            <div className="infoTagCont">{linkedin}<a className="infoTag" href="https://www.linkedin.com/in/luciobio/"><h5>Linked In</h5></a></div>
-            <div className="infoTagCont">{github}<a className="infoTag" href="https://github.com/Luciobio"><h5>GitHub</h5></a></div>
+          <div className="contactCont">
+            <div className="contactInfo">
+              <div className="infoTagCont">{location}<h5 className="infoTag">Córdoba, Argentina</h5></div>
+              <div className="infoTagCont">{phone}<a className="infoTag" href="https://wa.me/5493875060613"><h5>+549-387-5060-613</h5></a></div>
+              <div className="infoTagCont">{email}<a className="infoTag" href = "mailto: pardobio@gmail.com"><h5>pardobio@gmail.com</h5></a></div>
+              <div className="infoTagCont">{linkedin}<a className="infoTag" href="https://www.linkedin.com/in/luciobio/"><h5>Linked In</h5></a></div>
+              <div className="infoTagCont">{github}<a className="infoTag" href="https://github.com/Luciobio"><h5>GitHub</h5></a></div>
+            </div>
+            <div className="qrCont">
+              <img className="qr" src={require("./icons/qr.png")} height="200" alt=""/>
+            </div>
           </div>
           <div className="aboutCont">
             <h2>ABOUT ME</h2>

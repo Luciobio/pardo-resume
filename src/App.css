@@ -9,7 +9,7 @@
 }
 
 .leftColumn {
-  background-color: white;
+  background-color: #F5F5F5;
 }
 
 .headerCont {
@@ -77,9 +77,20 @@ span{
   color: white
 }
 
-.contactInfo {
-  padding: 7% 0 3% 7%;
+.contactCont {
+  display: flex;
+  width: 100%;
   background-color: #2B2B2B
+}
+
+.contactInfo {
+  padding: 5% 0 5% 7%;
+}
+.qrCont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 10% 0 10%;
 }
 
 .infoTagCont {
@@ -90,6 +101,7 @@ span{
 .infoTag {
   margin-left: 3%
 }
+
 
 a {
   color:white;
@@ -124,7 +136,15 @@ a:hover {
     flex-direction: column-reverse
   }
 
-  .contactInfo {
-    padding: 5% 0 5% 7%;
+  .contactCont {
+    flex-direction: column;
+    padding-bottom: 10%;
+  }
+}
+
+@media (max-width: 1300px) {
+  .contactCont {
+    flex-direction: column;
+    padding-bottom: 10%;
   }
 }

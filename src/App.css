@@ -54,12 +54,18 @@ span{
 
 .expCont{
   background-color: #F5F5F5;
-  padding-bottom: 75px;
+  padding-bottom: 20px;
 }
 
 .expTitleCont {
   background-color: #01BCB5;
   padding: 2%;
+  padding-left:7%
+}
+
+.pjtsTitleCont {
+  background-color: #01BCB5;
+  padding: 1%;
   padding-left:7%
 }
 
@@ -113,6 +119,15 @@ a:hover {
   color: white !important
 }
 
+.backText {
+  color: black;
+}
+
+.backText:hover {
+  text-shadow: 0 0 2px white;
+  color: grey !important
+}
+
 .aboutCont {
   padding: 3% 0 5% 7%;
   margin-top: 3%;
@@ -148,3 +163,4 @@ a:hover {
     padding-bottom: 10%;
   }
 }
+

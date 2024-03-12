@@ -150,7 +150,7 @@ function App() {
           </div>
           <div className="expCont">
             <div className="expTitleCont">
-              <h1 className="expTitle">EXPERIENCE</h1>
+              <h2 className="">EXPERIENCE</h2>
             </div>
             <div className="whiteCont">
               <h3>Teaching assistant</h3>
@@ -204,38 +204,82 @@ function App() {
               </p>
             </div>
           </div>
+          <div className="expCont">
+            <div className="pjtsTitleCont">
+              <h3 className="">LATEST PROJECTS</h3>
+            </div>
+            <div className="whiteCont">
+              <a
+                href="https://www.andreamorotienda.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <h3 className="backText">Andrea Moro Tienda</h3>
+              </a>
+              <h5>E-commerce Development</h5>
+              <p>UX/UI Design and Front - End Development</p>
+            </div>
+            <div className="whiteCont">
+              <a
+                href="https://geek-dom-clon.vercel.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <h3 className="backText">GeekDoom</h3>
+              </a>
+              <h5>E-commerce Development</h5>
+              <p>In team project. Front - End Development</p>
+            </div>
+          </div>
         </div>
         <div className="rightColumn">
           <div className="contactCont">
             <div className="contactInfo">
               <div className="infoTagCont">
-                {location}
+                <div>{location}</div>
                 <h5 className="infoTag">Córdoba, Argentina</h5>
               </div>
               <div className="infoTagCont">
-                {phone}
-                <a className="infoTag" href="https://wa.me/5493875060613">
-                  <h5>+549-387-5060-613</h5>
+                <div>{phone}</div>
+                <a
+                  className="infoTag"
+                  href="https://wa.me/5493875060613"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <h5>+549 3875060613</h5>
                 </a>
               </div>
               <div className="infoTagCont">
-                {email}
-                <a className="infoTag" href="mailto: pardobio@gmail.com">
+                <div>{email}</div>
+                <a
+                  className="infoTag"
+                  href="mailto: pardobio@gmail.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <h5>pardobio@gmail.com</h5>
                 </a>
               </div>
               <div className="infoTagCont">
-                {linkedin}
+                <div>{linkedin}</div>
                 <a
                   className="infoTag"
                   href="https://www.linkedin.com/in/luciobio/"
+                  target="_blank"
+                  rel="noreferrer"
                 >
                   <h5>Linked In</h5>
                 </a>
               </div>
               <div className="infoTagCont">
-                {github}
-                <a className="infoTag" href="https://github.com/Luciobio">
+                <div>{github}</div>
+                <a
+                  className="infoTag"
+                  href="https://github.com/Luciobio"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <h5>GitHub</h5>
                 </a>
               </div>
@@ -279,7 +323,7 @@ function App() {
             <h5>Henry bootcamp (06/20 - 10/20)</h5>
             <p>
               More that 500 hours of coding practice. Including two team work
-              development proyects: an e-commerce and a final proyect.
+              development projects: an e-commerce and a final project.
             </p>
             <p>
               <span>
@@ -288,10 +332,10 @@ function App() {
                 Scrum.
               </span>
             </p>
-            <br/>
+            <br />
             <h5>Image Campus (10/22 - 02/23)</h5>
             <h6>C++ for Videogame Development.</h6>
-            <br/>
+            <br />
             <h5>CODERHOUSE</h5>
             <h6>React JS - Completed 09/20/2022.</h6>
             <h6>UX/UI Design - Completed 02/14/2023.</h6>
